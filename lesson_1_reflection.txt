@@ -1,0 +1,33 @@
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+    It simplified the code or file to display only what was different between the two files not the netire files themselves.
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+    It would allow you to see previous versioms of the file as well as to see what changes were made and would allow for teamwork so that you did not do overlapping tasks or the work someone else did won't effect what you want to do
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+
+    Makes you think about and categorize changes, however, can lead t problems if you are not conscious or particularly good at thinking
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+    Because it is improtnat to keep files that come together as a whole recorded when the changes were made and when they were not thus allowing a more coprehnsive view of ow the files evolve to form the final product as well as to see if there are any important changes made in another file that was necesary to make a change in another file relevant(for example inputting new java will require a change in the html and maybe css file)
+
+How can you use the commands git log and git diff to view the history of files?
+
+    git log will give you the history of all commuts and then if you want to know what specifics have changed from commit to commit use the git diff function
+
+How might using version control make you more confident to make changes that
+could break something?
+
+    Because you can always go to a revious commit and use the working version!
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+    I don't really know, but I guess see the difference between commits and learn more version control
