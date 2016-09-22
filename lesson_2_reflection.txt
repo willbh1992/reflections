@@ -1,9 +1,12 @@
 What happens when you initialize a repository? Why do you need to do it?
+
 	It creates a .git repository inside the directory you intialize it in
 	after which you can then start saving commits and use git functions on that directory which is now a repository. Do it so you can use git funtions to track commits.
 
 How is the staging area different from the working directory and the repository?
 What value do you think it offers?
+
+	It is the intermediary area where you can choose what content comprises a commit allowing you the ability to logical partitio commits so that they make sense to the reader and yourself. Allows clean organization of commits
 
 How can you use the staging area to make sure you have one commit per logical
 change?
