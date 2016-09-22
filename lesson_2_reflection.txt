@@ -6,10 +6,12 @@ What happens when you initialize a repository? Why do you need to do it?
 How is the staging area different from the working directory and the repository?
 What value do you think it offers?
 
-	It is the intermediary area where you can choose what content comprises a commit allowing you the ability to logical partitio commits so that they make sense to the reader and yourself. Allows clean organization of commits
+	It is the intermediary area where you can choose what content comprises a commit allowing you the ability to logical partitio commits so that they make sense to the reader and yourself. Allows clean organization of commitsif 
 
 How can you use the staging area to make sure you have one commit per logical
 change?
+
+	The staging area will show which files have been modified and added to be committed, you can then use git diff and git diff --staged to see what those changes were, if those changes make sense and can be logically labeled then they should be commited under said label if not then you can redo the process until you have a logical commit lined up for categorization
 
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
