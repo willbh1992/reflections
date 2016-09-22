@@ -16,6 +16,8 @@ change?
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
 
+	When you want to try new things but don't want to mess up any working version of what you alreay have it will allow you to make changes that could not work yet retain the working structure in the master branch. Would also show the process of a working code then experimentation and then once that experiment works or doesn;t work the reader will see if it was then integrated or not inot the master branch. Shows the logical history of your repository and whatever project you were working on.
+
 How do the diagrams help you visualize the branch structure?
 
 What is the result of merging two branches together? Why do we represent it in
