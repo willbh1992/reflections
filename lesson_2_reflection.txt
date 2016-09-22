@@ -19,6 +19,8 @@ organized? How would branches help?
 	When you want to try new things but don't want to mess up any working version of what you alreay have it will allow you to make changes that could not work yet retain the working structure in the master branch. Would also show the process of a working code then experimentation and then once that experiment works or doesn;t work the reader will see if it was then integrated or not inot the master branch. Shows the logical history of your repository and whatever project you were working on.
 
 How do the diagrams help you visualize the branch structure?
+	
+	They show how branches refer lenearlly from thie rmost recent commit to either the point hey broke off the master branch or in the case you are on the master branch the point at which the first commit was initialized. Diagrams also show reachibility as an issue int hat if you checkout a commit not a branch you have disrupted the linear structure of the branching and this commit can not be found in the branch logs (this state is what is known as 'detached' HEAD state and the reason you get that message when you checkout a single commit) however the diagrams also show how when you use the git checkout -b new_branch_name fucntion you can then turn the non linear commit into a seperate branch which can then be tracked using git log
 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
