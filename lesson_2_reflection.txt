@@ -25,5 +25,7 @@ How do the diagrams help you visualize the branch structure?
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
 
+	It merges two branches by checking the them versus the state of the file before the branch was created. Then based on what was added or removed the merge function creates a final file. It is repersented that way to show inheritance so that you can see whether they were merged together at a certain point and why.
+
 What are the pros and cons of Gitâ€™s automatic merging vs. always doing merges
 manually?
