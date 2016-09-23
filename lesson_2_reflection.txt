@@ -29,3 +29,5 @@ the diagram the way we do?
 
 What are the pros and cons of Gitâ€™s automatic merging vs. always doing merges
 manually?
+
+	Automatic merging is beenficial in that it streamlines the merge ad makes it less labor intensive however, there are some cases where merge conflicts arise and manual merging is required however, automatic merging does display when a merge conflict arises and then requires manual merging
